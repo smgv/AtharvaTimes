@@ -1,0 +1,170 @@
+.contactbody{
+	width: 90%;
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 1%;
+	height: auto;
+
+}
+
+.contactbody1{
+	width: 90%;
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 1%;
+	height: auto;
+	margin-bottom: 1%;
+	 box-shadow: 5px 5px 10px #888888;
+	 -moz-box-shadow: 5px 5px 10px #888888;
+	-webkit-box-shadow: 5px 5px 10px #888888;
+}
+
+input[type=text], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+textarea{
+	width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contactbody{
+	background-image: url(img/contact.jpg);
+	background-size: cover;
+	 box-shadow: 5px 5px 10px #888888;
+	  -moz-box-shadow: 5px 5px 10px #888888;
+	-webkit-box-shadow: 5px 5px 10px #888888;
+}
+
+.opacity{
+	width:500px;
+	height:400PX;
+	background-color: rgba(0,0,0,0.2);
+	margin: 0 auto;
+	margin-top: 40px;
+	padding-top: 10px;
+	padding-left: 50px;
+	border-radius: 15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	-o-border-radius:15px;
+	color: white;
+	font-weight: bolder;
+	margin-top: 2%;
+
+}
+
+iframe{
+    width: 300px;
+    height: 300px;
+    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 4s;
+     margin-left: 80px;
+     border:2px solid black;
+     border-radius: 5px;
+      box-shadow: 5px 5px 10px #888888;
+	  -moz-box-shadow: 5px 5px 10px #888888;
+	-webkit-box-shadow: 5px 5px 10px #888888;
+}
+
+iframe:hover {
+    width: 400px;
+     box-shadow: 5px 5px 10px #888888;
+	  -moz-box-shadow: 5px 5px 10px #888888;
+	-webkit-box-shadow: 5px 5px 10px #888888;
+
+}
+
+
+
+.sidecontact{
+	float: left;
+    width: 300px;
+    height: 200px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    background: -webkit-linear-gradient(left, #b3ffff ,#e6ffff ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #b3ffff ,#e6ffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,#b3ffff ,#e6ffff ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,#b3ffff ,#e6ffff ); /* Standard syntax (must be last) */
+    padding: 10px;
+
+}
+
+
+.sidecontact h1, .sidecontact p{
+	padding-left: 5px;
+	padding-top: 5px;
+	color:brown;
+
+}
+
+.sidecontact h1{
+	border-bottom: 1px solid black;
+}
+
+.sidecontact p{
+	font-style: italic;
+}
+
+
+/*media query*/
+
+
+@media only screen and (min-width: 150px) and (max-width: 600px) {
+
+	.opacity{
+		width: 250px;
+
+	}
+
+	.contactbody1{
+		width:285px;
+		height: 500px;
+	}
+
+	iframe{
+		width: 290px;
+		margin-left: 0;
+	}
+
+	iframe:hover {
+	 width:100%;
+	}
+
+	.sidecontact{
+		margin-right: 5%;
+}
+}

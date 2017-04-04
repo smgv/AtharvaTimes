@@ -1,0 +1,150 @@
+#mainwrapper{
+	width: 960px;
+	margin: 0, auto;
+	background-color: white;
+
+}
+
+#section{
+background:#ffffff;
+float: left;
+height: 2000px;
+width: 610px;
+padding: 40px;
+border: 1px solid black;
+margin-bottom: 1%;
+margin-top: 1%;
+border-radius: 5px;
+}
+
+.thumbnail{
+	float: left;
+}
+
+.Post{
+clear: both;
+padding-bottom: 40px;
+margin-bottom: 40px;
+border-bottom: 1px solid black;
+}
+
+.Post h1 a{
+
+}
+
+aside{
+	width: 252px;
+	background: #e5e5e5;
+	float: left;
+	height: 2080px;
+	border: 1px solid black;
+	 box-shadow: 5px 5px 10px #888888;
+	  -moz-box-shadow: 5px 5px 10px #888888;
+	-webkit-box-shadow: 5px 5px 10px #888888;
+	margin-top: 1%;
+
+}
+
+aside center h1{
+	border-bottom: 1px solid black;
+	margin-bottom: 1%;
+	padding: 5px;
+
+}
+
+.Postside h5{
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	margin-left: 2%;
+	margin-right: 2%;
+	clear: both;
+    border-bottom: 1px solid black;
+}
+
+.Postside:hover{
+background-color: lightgray;
+}
+
+aside > center:hover{
+	background-color: 	#00FF00;
+}
+
+
+
+@media only screen and (min-width: 250px) and (max-width: 600px) {
+
+.body {
+	width: 100%;
+	font-size: 95%;
+}
+
+
+#box {
+	width:91%;
+	line-height:50px;
+	margin-top: 2%;
+	margin-bottom: 1%;
+	padding: 2% 3%;
+}
+
+#box > h2{
+	padding-bottom: 2px;
+}
+
+
+.mainheadder img {
+	width:100%; 
+	}
+
+	.mainheadder nav {
+	height: 160px;
+}
+
+.mainheadder nav ul {
+	padding-left: 0;
+}
+
+
+.mainheadder nav ul li {
+	width: 100%;
+	text-align: center;
+}
+
+.mainheadder nav a:link, .mainheadder nav a:visited {
+	padding: 10px 25px;
+	height: 20px;
+	display: block;
+}
+
+
+
+#section{
+height: 4500px;
+width: 29%;
+
+}
+
+aside{
+	width:30%;
+	height: 2080px;
+
+}
+
+
+.Post img{
+	width: 100%;
+}
+
+.Post{
+clear:right;
+padding-bottom: 40px;
+margin-bottom: 40px;
+border-bottom: 1px solid black;
+}
+
+.Postside img{
+width: 50%;
+}
+}

@@ -1,0 +1,70 @@
+/*.flip3D{
+	width: auto;
+	height: 300px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 5%;
+
+}
+
+
+.side{
+	width:30%;
+	float: left;
+	background-color:white;
+}
+
+
+.flip3D > .back{
+	position: absolute;
+	-webkit-transform: perspective(600px) rotateY(180deg);
+	-moz-transform: perspective(600px) rotateY(180deg);
+	transform: perspective(600px) rotateY(180deg);
+	background:#80BFFF; width: 30%; height: 300px; border-radius: 7px;
+	backface-visibility: hidden;
+	transition: transform .5s linear 0s;
+	transition: -webkit-transform .5s linear 0s;
+	transition: -moz-transform .5s linear 0s;
+}
+
+.flip3D > .front{
+	position: absolute;
+	-webkit-transform: perspective(600px) rotateY(0deg);
+	-moz-transform: perspective(600px) rotateY(0deg);
+	transform: perspective(600px) rotateY(0deg);
+	background:white; width: 30%; height: 300px; border-radius: 7px;
+	backface-visibility: hidden;
+	transition: -webkit-transform .5s linear 0s;
+	transition: -moz-transform .5s linear 0s;
+	transition: transform .5s linear 0s;
+}
+
+
+.flip3D:hover> .back{
+-webkit-transform: perspective(600px) rotateY(0deg);
+-moz-transform: perspective(600px) rotateY(0deg);
+	transform: perspective(600px) rotateY(0deg);
+}
+
+.flip3D:hover > .front{
+	-webkit-transform: perspective(600px) rotateY(-180deg);
+	-moz-transform: perspective(600px) rotateY(-180deg);
+	transform: perspective(600px) rotateY(-180deg);
+}
+*/
+
+.wrap{
+	width: 90%;
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 1%;
+	height: 500px;
+	margin-bottom: 1%;
+	 box-shadow: 5px 5px 10px #888888;
+	 -moz-box-shadow: 5px 5px 10px #888888;
+	-webkit-box-shadow: 5px 5px 10px #888888;
+}
+

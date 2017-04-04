@@ -1,0 +1,462 @@
+body {
+	background-image: url('img/bg.png');
+	background: -webkit-linear-gradient(left, #b3ffff ,#e6ffff ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #b3ffff ,#e6ffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,#b3ffff ,#e6ffff ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,#b3ffff ,#e6ffff ); /* Standard syntax (must be last) */
+	color: #000305;
+	font-size: 87.5%; /* base font is 14px */
+	font-family: Arial, 'Lucida Sans Unicode'; 
+	line-height: 1.5;
+	text-align:left;
+}
+
+#box {
+	width: 93.5%;
+	color: #FFF;
+	background-color: red;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+	/*background: #666; /* For browsers that do not support gradients */    
+/*    background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
+/*     background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
+/*     background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
+/*     background: linear-gradient(to right, red , yellow); /* Standard syntax (must be last) */
+	line-height: 30px;
+	margin-top: 2%;
+	margin-bottom: 1%;
+	padding: 2% 3%;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color: orange;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color: orange;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+ center > h2{
+   padding-bottom: 2px;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited{
+	color: #CF5C3F;
+
+}
+
+a:hover, a:active{
+background-color: #CF5C3F;
+color: #FFF;
+}
+
+.body {
+	margin: 0 auto;
+	width: 70%;
+	clear: both;
+}
+
+.mainheadder img {
+	width:30%; 
+	height: auto;
+	margin: 2% 0;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.mainheadder nav {
+	background-color: #666;
+	height: 50px;
+	border: 2px solid black;
+	border-radius: 5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+.mainheadder nav ul {
+	list-style: none;
+	margin: 0 auto;
+}
+
+
+.mainheadder nav ul li {
+	
+	display: inline;
+	font-family: "Courier New", Times, serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.mainheadder nav a:link, .mainheadder nav a:visited {
+	color: #FFF;
+	display: inline-block;
+	padding: 10px 20px;
+	height: 30px;
+}
+
+.mainheadder nav a:hover, .mainheadder nav a:active,
+.mainheadder nav .active a:link, .mainheadder nav .active a:visited {
+	background-color: #CF5C3F;
+	color: #FFF;
+	text-shadow: none;
+} 
+
+
+.mainheadder nav ul li a {
+	border-radius: 5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+.maincontent {
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+h1, h3{
+	font-family: "Times New Roman Georgia", Times, serif;
+}
+
+h2{
+	font-family: "Verdana", Times, serif;
+	font-style: italic;
+}
+
+footer > p{
+	color: black;
+}
+.content{
+	width: auto;
+	float: left;
+
+}
+
+.content img, .post-content img, .content1 img, .post-content iframe, article img{
+	border-radius: 5px;
+	border: 4px solid grey;
+}
+
+
+.topcontent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 1%;
+	 box-shadow: 5px 5px 10px #888888;
+	  -moz-box-shadow: 5px 5px 10px #888888;
+	-webkit-box-shadow: 5px 5px 10px #888888;
+}
+
+.bottomcontent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 1%;
+	 box-shadow: 5px 5px 10px #888888;
+	  -moz-box-shadow: 5px 5px 10px #888888;
+	-webkit-box-shadow: 5px 5px 10px #888888;
+}
+
+.post1-content {
+	width: 25%;
+	float: left;
+	background-color: #FFF;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	padding: 2% 3%;
+	line-height: 30px;
+	 box-shadow: 5px 5px 10px #888888;
+	  -moz-box-shadow: 5px 5px 10px #888888;
+	-webkit-box-shadow: 5px 5px 10px #888888;
+}
+
+.post2-content {
+	width: 25%;
+	float: left;
+	background-color: #FFF;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	margin-left: 2.5%;
+	padding: 3% 5%;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	padding: 2% 3%;
+	line-height: 25px;
+	 box-shadow: 5px 5px 10px #888888;
+	  -moz-box-shadow: 5px 5px 10px #888888;
+	-webkit-box-shadow: 5px 5px 10px #888888;
+}
+
+.post3-content {
+	width: 25%;
+	float: left;
+	background-color: #FFF;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	margin-left: 2.5%;
+	padding: 3% 5%;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	padding: 2% 3%;
+	line-height: 80px;
+	 box-shadow: 5px 5px 10px #888888;
+	  -moz-box-shadow: 5px 5px 10px #888888;
+	-webkit-box-shadow: 5px 5px 10px #888888;
+}
+
+.post4-content {
+	width: 25%;
+	float: left;
+	background-color: #FFF;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	margin-left: 2%;
+	padding: 3% 5%;
+	margin-bottom: 1%;
+	margin-top: 0%;
+	padding: 2% 3%;
+	line-height: 23px;
+	 box-shadow: 5px 5px 10px #888888;
+	  -moz-box-shadow: 5px 5px 10px #888888;
+	-webkit-box-shadow: 5px 5px 10px #888888;
+}
+
+.post5-content {
+	width: 25%;
+	float: left;
+	background-color: #FFF;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	margin-left: 2%;
+	padding: 3% 5%;
+	margin-bottom: 1%;
+	margin-top: 0%;
+	padding: 2% 3%;
+	line-height: 19px;
+	 box-shadow: 5px 5px 10px #888888;
+	  -moz-box-shadow: 5px 5px 10px #888888;
+	-webkit-box-shadow: 5px 5px 10px #888888;
+}
+.content1{
+	width:100%;
+	float: left;
+}
+
+.topcontent1 {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	line-height: 26.75px;
+	 box-shadow: 5px 5px 10px #888888;
+	  -moz-box-shadow: 5px 5px 10px #888888;
+	-webkit-box-shadow: 5px 5px 10px #888888;
+}
+
+
+.mainfooter {
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background-color: #666;
+	margin-top: 2% 0;
+	margin-bottom: 2%;
+	border: 2px solid black;
+}
+
+.mainfooter p {
+	width: 92%;
+	margin: 2% auto;
+	color: #FFF;
+	font-family: "Courier New", Times, serif;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+.post-info {
+	font-style: italic;
+	font-size: 85%;
+	color: #999;
+}
+
+
+.read{
+	text-align: right;
+	margin-top: 2px;
+}
+
+
+
+
+/*media query*/
+
+
+@media only screen and (min-width: 150px) and (max-width: 600px) {
+
+	.body {
+	width: 90%;
+	font-size: 95%;
+}
+
+
+#box {
+	width: 93%;
+	line-height:50px;
+	margin-top: 2%;
+	margin-bottom: 1%;
+	padding: 2% 3%;
+}
+
+#box > h2{
+	padding-bottom: 2px;
+}
+
+
+.mainheadder img {
+	width:100%; 
+	}
+
+	.mainheadder nav {
+	height: 160px;
+}
+
+.mainheadder nav ul {
+	padding-left: 0;
+}
+
+
+.mainheadder nav ul li {
+	width: 100%;
+	text-align: center;
+}
+
+.mainheadder nav a:link, .mainheadder nav a:visited {
+	padding: 10px 25px;
+	height: 20px;
+	display: block;
+}
+
+.content img, .content1 img{
+	width: 100%;
+	height: 100%;
+}
+
+.content{
+	width: 97;
+	float: left;
+	margin-top: 2%;
+}
+
+.topcontent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	margin-bottom: 4%;
+}
+
+.bottomcontent {
+	margin-top: 2%;
+}
+
+.post1-content {
+	width: 94%;
+}
+
+.post2-content {
+	width: 94%;
+	margin-left: 0%;
+}
+
+.post3-content {
+	width: 94%;
+	margin-left: 0%;
+}
+
+.post4-content {
+	width: 95%;
+	margin-left: 0%;
+}
+
+.post5-content {
+	width: 95%;
+	margin-left: 0%;
+}
+
+.post-content img, .post-content iframe{
+	width: 100%;
+}
+
+.content1{
+	width: 100%;
+	float: left;
+	margin-top: 2%;
+}
+
+.topcontent1 {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	margin-bottom: 4%;
+}
+
+
+
+
+
+.mainfooter {
+	width: 100%;
+	float: left;
+	background-color: #666;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.mainfooter p {
+	width: 92%;
+	margin: 2% auto;
+	color: #FFF;
+}
+
+.post-info {
+	display: none;
+}
+
+}
